@@ -32,7 +32,7 @@ The following EXTRA features are implemented:
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='https://imgur.com/rt5pN7h' title='Video Demo' alt='Video Demo' />
+<img src='https://i.imgur.com/rt5pN7h.gif' title='Video Demo' alt='Video Demo' />
 
 GIF created with **your chosen GIF tool**
 
