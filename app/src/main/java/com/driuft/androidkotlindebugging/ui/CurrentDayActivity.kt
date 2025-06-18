@@ -8,7 +8,7 @@ import java.util.*
 
 class CurrentDayActivity : AppCompatActivity() {
 
-    private lateinit var currentDayText: TextView
+    private lateinit var  currentDayText: TextView
     private val cal: Calendar = Calendar.getInstance()
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,7 +16,7 @@ class CurrentDayActivity : AppCompatActivity() {
         setContentView(R.layout.activity_current_day)
 
         currentDayText = findViewById(R.id.current_day_text)
-        currentDayText.text = getString(getDayOfMonth())
+        currentDayText.text = getDayOfMonth().toString()
     }
 
     private fun getDayOfMonth(): Int {
